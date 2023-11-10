@@ -10,3 +10,72 @@ Se puede si Gamma agrega el link del repositorio de Alfa con git remote add upst
 d)¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 no se pierden.
+
+e)
+ 
+2- 
+-git clone https:https://github.com/The0Torres/TP_SO_i2_117.git
+-git status
+-git add -A
+-git commit -m "Interaccion 2 punto 2 GAMMA"
+-git push
+
+3-
+git clone https://github.com/marianelabengoa/TP_SO_i2_117.git
+ cd TP_SO_i2_117
+ git clone https://github.com/The0Torres/TP_SO_i2_117.git
+ git clone https://github.com/The0Torres/TP_SO_i2_117.git
+cd TP_SO_i2_117
+ git clone https://github.com/marianelabengoa/TP_SO_i2_117.git
+ cd TP_SO_i2_117
+ nano fork.txt,
+git status
+git add fork.txt,
+git add .
+git commit -m "modifico fork.txt,"
+
+4-
+git clone https://github.com/The0Torres/TP_SO_i2_117.git
+git add .
+git commit -m "nuevo archivo"
+git push origin main
+
+5-
+Gamma y beta : 
+-git remote add upstream https:https://github.com/The0Torres/TP_SO_i2_117.git
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+-git push -f
+
+
+4-
+touch respuesta_I2_Equipo117.txt
+git add .
+git commit -m "archivo respuestas"
+git push origin main
+git add .
+git commit -m "respuestas"
+git push origin main
+
+
+5-
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+-git status
+-git add -A
+-git commit -m "Interaccion 2 punto 5 GAMMA"
+-git push -f
+
+6-
+git add .
+git commit -m "respuestas"
+git push origin main
+
+7-
+nano respuesta_I2_equipo117.txt
+git add .
+git commit -m "respuesta e"
+git push 
+
